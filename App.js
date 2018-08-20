@@ -11,12 +11,12 @@ import Intro from './layouts/Intro'
 import * as firebase from 'firebase';
 
 var config = {
-      apiKey: "AIzaSyCr_M6BFYFKOjXkgRyGUZ_b72KZ3cYH_rs",
-      authDomain: "twitter-intern.firebaseapp.com",
-      databaseURL: "https://twitter-intern.firebaseio.com",
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
       projectId: "twitter-intern",
-      storageBucket: "twitter-intern.appspot.com",
-      messagingSenderId: "615760186685"
+      storageBucket: "",
+      messagingSenderId: ""
     };
 
 !firebase.apps.length ? firebase.initializeApp(config) : firebase.app();
